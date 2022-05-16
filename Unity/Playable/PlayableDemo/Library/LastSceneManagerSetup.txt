@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MixPlayableScene.unity
+- path: Assets/Scenes/ControllPlayablePlay.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

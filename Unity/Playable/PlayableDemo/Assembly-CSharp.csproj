@@ -53,9 +53,13 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\MixAnimationClipByTotuaril.cs" />
     <Compile Include="Assets\Script\SamplePlay.cs" />
     <Compile Include="Assets\Script\MixAnimationClip.cs" />
-    <Compile Include="Assets\Script\MixAnimationClipByTotuaril.cs" />
+    <Compile Include="Assets\Script\MixAnimatorAndAnimationClip.cs" />
+    <Compile Include="Assets\Script\MultiplePlayableOutput.cs" />
+    <Compile Include="Assets\Script\ControllPlayablePlay.cs" />
+    <Compile Include="Assets\Script\PlayableQueue.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -660,13 +664,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.PlayableGraphVisualizer.csproj">
-      <Project>{5FDFF582-E41E-B01F-7AD4-1B8711986CC0}</Project>
-      <Name>Unity.PlayableGraphVisualizer</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.PlayableGraphVisualizer.Editor.csproj">
       <Project>{1E12B3E2-629B-5946-9E2E-D8E11858092E}</Project>
       <Name>Unity.PlayableGraphVisualizer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayableGraphVisualizer.csproj">
+      <Project>{5FDFF582-E41E-B01F-7AD4-1B8711986CC0}</Project>
+      <Name>Unity.PlayableGraphVisualizer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
