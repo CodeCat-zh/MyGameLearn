@@ -53,13 +53,14 @@
     <UnityVersion>2020.3.21f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\MultiplePlayableOutput.cs" />
+    <Compile Include="Assets\Script\ControllPlayablePlay.cs" />
+    <Compile Include="Assets\Script\PlayableQueue.cs" />
     <Compile Include="Assets\Script\MixAnimationClipByTotuaril.cs" />
     <Compile Include="Assets\Script\SamplePlay.cs" />
     <Compile Include="Assets\Script\MixAnimationClip.cs" />
     <Compile Include="Assets\Script\MixAnimatorAndAnimationClip.cs" />
-    <Compile Include="Assets\Script\MultiplePlayableOutput.cs" />
-    <Compile Include="Assets\Script\ControllPlayablePlay.cs" />
-    <Compile Include="Assets\Script\PlayableQueue.cs" />
+    <Compile Include="Assets\Script\UsePlayableQueueSample.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -671,6 +672,18 @@
     <ProjectReference Include="Unity.PlayableGraphVisualizer.csproj">
       <Project>{5FDFF582-E41E-B01F-7AD4-1B8711986CC0}</Project>
       <Name>Unity.PlayableGraphVisualizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.csproj">
+      <Project>{E3D28CFA-450D-89EF-61F3-833D06B50657}</Project>
+      <Name>Animancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.Examples.csproj">
+      <Project>{6FC915D9-5B7F-F4CF-A909-97044CE31E01}</Project>
+      <Name>Animancer.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Animancer.FSM.csproj">
+      <Project>{84CA91D8-5DBF-5A49-F460-01C8A90A032F}</Project>
+      <Name>Animancer.FSM</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
