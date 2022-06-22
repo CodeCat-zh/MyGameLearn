@@ -3058,3 +3058,4 @@ Received Import Request.
 Start importing Assets/Script/EventManager.cs using Guid(cbc223748cb8dfa4fbb5c22dc4529304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e44863b46664a735f593d7d581bf01f') in 0.003946 seconds 
   Import took 0.005790 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
